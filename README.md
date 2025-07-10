@@ -1,7 +1,9 @@
 <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/Sem%20nome%20(849%20x%20150%20px)%20(1000%20x%20150%20px).png?raw=true" width="100%" />
 
 
-# 🌸 Projeto Hello Kitty - Página Interativa com Tema Sanrio
+# <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/sanrio.webp" width="30" style="vertical-align: middle; margin-bottom: -55px;" />  Projeto Hello Kitty - Página Interativa com Tema Sanrio
+
+
 
 ---
 
@@ -11,7 +13,7 @@ Com base em um projeto modelo apresentado pelos meus professores, personalizei t
 
 ---
 
-## 💡 Funcionalidades Principais
+## <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/seta.webp" width="20" style="vertical-align: middle;" /> Funcionalidades Principais
 
 - Layout responsivo, adaptando-se perfeitamente a diferentes tamanhos de tela  
 - Estilo visual inspirado na marca Sanrio, com cores e elementos que remetem à Hello Kitty  
@@ -23,12 +25,11 @@ Com base em um projeto modelo apresentado pelos meus professores, personalizei t
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** para a estrutura semântica da página  
-- **CSS3** com técnicas modernas para layout e efeitos visuais  
-- **JavaScript** para interatividade e manipulação dinâmica dos elementos  
-- **Git e GitHub** para controle de versão e hospedagem  
+- <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/html.webp" width="18" /> **HTML5** para a estrutura semântica da página  
+- <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/css.webp" width="18" /> **CSS3** com técnicas modernas para layout e efeitos visuais  
+- <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/js.webp" width="18" /> **JavaScript** para interatividade e manipulação dinâmica dos elementos  
+- <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/git.webp" width="18" /> **Git e GitHub** para controle de versão e hospedagem  
 - **V0.dev** como ferramenta de pré-visualização e prototipação rápida  
-
 ---
 
 <div align="center">
@@ -46,7 +47,7 @@ Confira a versão final do projeto hospedada no GitHub Pages:
 
 ---
 
-## 🤝 Agradecimentos
+## <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/agradecimento.webp" width="35" style="vertical-align: middle;" /> Agradecimentos
 
 Agradeço aos professores do curso **Dev em Dobro** pela base sólida que me inspirou a criar este projeto. Também sou grata ao universo fofo da Hello Kitty, que tornou este aprendizado muito mais divertido e motivador! 🐱💖
 
