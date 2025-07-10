@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kittyverso</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/particles.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+  
+<div id="audio-container">
+  <audio id="character-audio" controls style="display: none;"></audio>
+  <div id="character-quote" class="quote-box"></div>
+</div>
+
+    <canvas id="particles-canvas"></canvas>
+
+    <main>
+      <div class="kittyverso">
+        <div class="cartoes-kitty">
+          <div class="cartao-kitty tipo-doce aberto" id="cartao-hellokitty">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Hello Kitty</h2>
+                <span>#001</span>
+              </div>
+
+              <span class="tipo">doce</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/hellokiitty.png" alt="Hello Kitty" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Hello Kitty, também conhecida como Kitty White, é uma gatinha
+                  adorável e icônica com um laço vermelho na orelha esquerda.
+                  Nascida em Londres, ela é alegre, gentil e sempre pronta para
+                  espalhar amor e amizade por onde passa. Mesmo sem boca, ela se
+                  comunica com o coração, mostrando empatia e doçura. Gosta de
+                  fazer bolos, tomar chá com os amigos e colecionar coisas
+                  fofas. Sua personalidade calorosa e otimista faz dela uma das
+                  personagens mais queridas do mundo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-kitty tipo-amavel" id="cartao-mymelody">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">My Melody</h2>
+                <span>#002</span>
+              </div>
+
+              <span class="tipo">amável</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/mymelody.png" alt="My Melody" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  My Melody é uma coelhinha doce, gentil e muito carinhosa,
+                  conhecida por seu capuz vermelho (às vezes rosa) que cobre
+                  suas orelhas compridas. Ela nasceu na Floresta de Mary Land e
+                  adora assar biscoitos com sua mãe. Sempre educada e meiga, My
+                  Melody é uma amiga leal, especialmente da Hello Kitty. Seu
+                  jeito calmo e puro conquista todos ao redor, e ela sempre está
+                  disposta a ajudar os outros com um sorriso no rosto.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-kitty tipo-elegante" id="cartao-charmmykitty">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Charmmy Kitty</h2>
+                <span>#003</span>
+              </div>
+
+              <span class="tipo">elegante</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/gatinha.png" alt="Charmmy Kitty" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Charmmy Kitty é a gatinha de estimação da Hello Kitty. Com
+                  pelos brancos, fofinhos e um jeitinho refinado, ela é
+                  extremamente obediente, educada e graciosa. Gosta de usar
+                  laços e colares brilhantes, e tem uma personalidade calma e
+                  elegante. Foi presente do papai da Hello Kitty e sempre anda
+                  com um charme especial. Charmmy Kitty adora cuidar do visual e
+                  está sempre impecável, sendo uma combinação perfeita de fofura
+                  e sofisticação.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-kitty tipo-fofo" id="cartao-pompompurin">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Pompompurin</h2>
+                <span>#004</span>
+              </div>
+
+              <span class="tipo">fofo</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/pompom.png" alt="Pompompurin" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Pompompurin é um cachorrinho da raça golden retriever,
+                  conhecido pelo seu gorro marrom que parece um pudim — o que
+                  combina perfeitamente com seu nome! Ele é super amigável,
+                  descontraído e adora tirar sonecas. Muito carinhoso, gosta de
+                  passar o tempo com os amigos (como a hamster Muffin e a
+                  coelhinha Bagel), sair para passear e colecionar sapatos do
+                  papai. Seu jeito tranquilo, comilão e doce faz dele um dos
+                  personagens mais aconchegantes e adoráveis do universo Sanrio.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-kitty tipo-fofinho" id="cartao-cinnamoroll">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Cinnamoroll</h2>
+                <span>#005</span>
+              </div>
+
+              <span class="tipo">fofinho</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/cinamorol.png" alt="Cinnamoroll" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Cinnamoroll é um cachorrinho branco com orelhas grandes e
+                  fofas que parecem nuvens. Ele pode voar usando essas orelhas
+                  como asas! Tem bochechas rosadas, olhos azuis e uma cauda
+                  enroladinha como um rolinho de canela — daí seu nome. Ele é
+                  tímido, gentil e adora cochilar no colo das pessoas.
+                  Cinnamoroll trabalha no Café Cinnamoroll e é muito querido
+                  pelos clientes por sua doçura e delicadeza. É o tipo de
+                  personagem que aquece o coração só de olhar.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-kitty tipo-rebelde" id="cartao-kuromi">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Kuromi</h2>
+                <span>#006</span>
+              </div>
+
+              <span class="tipo">rebelde</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/Kuromi.png" alt="Kuromi" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Kuromi é a rival (e às vezes amiga) da My Melody. Ela usa um
+                  capuz preto com uma caveirinha rosa e tem uma personalidade
+                  travessa, energética e ousada — mas no fundo, tem um lado
+                  sensível e romântico que tenta esconder. Gosta de rock,
+                  escrever no seu diário e tem um senso de humor afiado. Apesar
+                  de seu visual punk e atitude atrevida, Kuromi é super
+                  carismática e muito amada pelos fãs por ser autêntica e cheia
+                  de atitude.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="listagem">
+          <ul>
+            <li class="kitty ativo" id="hellokitty">
+              <img src="./src/imagens/hellokiitty.png" alt="Hello Kitty" />
+              <span>Hello Kitty</span>
+            </li>
+            <li class="kitty" id="mymelody">
+              <img src="./src/imagens/mymelody.png" alt="My Melody" />
+              <span>My Melody</span>
+            </li>
+            <li class="kitty" id="charmmykitty">
+              <img src="./src/imagens/gatinha.png" alt="Charmmy Kitty" />
+              <span>Charmmy Kitty</span>
+            </li>
+            <li class="kitty" id="pompompurin">
+              <img src="./src/imagens/pompom.png" alt="Pompompurin" />
+              <span>Pompompurin</span>
+            </li>
+            <li class="kitty" id="cinnamoroll">
+              <img src="./src/imagens/cinamorol.png" alt="Cinnamoroll" />
+              <span>Cinnamoroll</span>
+            </li>
+            <li class="kitty" id="kuromi">
+              <img src="./src/imagens/Kuromi.png" alt="Kuromi" />
+              <span>Kuromi</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/particles.js"></script>
+  </body>
+</html>
