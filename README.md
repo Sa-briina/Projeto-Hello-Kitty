@@ -53,3 +53,7 @@ Agradeço aos professores do curso **Dev em Dobro** pela base sólida que me ins
 ---
 
 *Feito com dedicação e carinho por Sabrina Moura*  
+
+<div align="center">
+  <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/nuvemrosa.png?raw=true" width="100%" alt="Nuvem Rosa" />
+</div>
