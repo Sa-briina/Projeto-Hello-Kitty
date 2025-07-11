@@ -32,9 +32,8 @@ Com base em um projeto modelo apresentado pelos meus professores, personalizei t
 - <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/git.webp" width="18" /> **Git e GitHub** para controle de versão e hospedagem  
 - **V0.dev** como ferramenta de pré-visualização e prototipação rápida  
 ---
-
 <div align="center">
-  <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/cap-kitty.png?raw=true" width="80%" alt="Captura do Projeto Hello Kitty" />
+  <img src="https://github.com/Sa-briina/Projeto-Hello-Kitty/blob/main/Readme.img/gif-hello.gif?raw=true" width="100%" alt="Demonstração do Projeto Hello Kitty" />
 </div>
 
 
